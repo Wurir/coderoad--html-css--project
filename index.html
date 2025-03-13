@@ -7,23 +7,36 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    >
     <title>Best online courses!</title>
 </head>
 
 <body>
 
-    <div id="nav">
-        <ul>
-            <a href="./#features">
-                <li>Features</li>
+    <div class="nav" id="nav">
+    <div class="container">
+        <ul class="nav__links">
+            <a class="nav__link nav__link--active" href="#">
+                <li class="nav__link-item">Home</li>
             </a>
-            <a href="./#testimonials">
-                <li>Testimonials</li>
+            <a class="nav__link" href="./#features">
+                <li class="nav__link-item">Features</li>
             </a>
-            <a href="./#contact">
-                <li>Contact</li>
+            <a class="nav__link" href="./#testimonials">
+                <li class="nav__link-item">Testimonials</li>
+            </a>
+            <a class="nav__link" href="./#contact">
+                <li class="nav__link-item">Contact</li>
             </a>
         </ul>
+    </div>
     </div>
 
     <div id="hero">
@@ -38,7 +51,10 @@
         <button>Buy now!</button>
     </div>
 
-    <div id="features">
+    <div
+        class="container"
+        id="features"
+    >
         <div>
             <img
                 src="./img/online-course.png"
@@ -75,7 +91,10 @@
 
     </div>
 
-    <div id="about">
+    <div
+        class="container"
+        id="about"
+    >
         <div>
             <h2>Out team - meet people behind the course!</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, iste.</p>
@@ -90,7 +109,10 @@
         </div>
     </div>
 
-    <div id="testimonials">
+    <div
+        class="container"
+        id="testimonials"
+    >
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem asperiores? Velit mollitia
                 necessitatibus sed explicabo consequatur cum odio, voluptates omnis veritatis ullam tenetur eaque quidem
