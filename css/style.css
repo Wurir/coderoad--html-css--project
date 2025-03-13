@@ -202,6 +202,101 @@ html, body {
 
 /* CONTACT */
 
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    color: white;
+    background-color: #34495e;
+}
 
+.contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact__header {
+    margin-top: 0;
+}
+
+.contact__rule {
+    width: 20%;
+    min-width: 100px;
+    margin: 0;
+}
+
+.contact__text, .contact__form {
+    flex-basis: 50%;
+    padding: 0 2rem;
+}
+
+.contact__info-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact__icon-address {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem;
+}
+
+.contact__icon-phone {
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+
+.contact__form {
+
+}
+
+.contact__form-input {
+    color: white;
+    min-height: 2rem;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact__form-input::placeholder {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.contact__form-input--full-width {
+    width: 100%;
+}
+
+.contact__form-input--transparent {
+    background-color: transparent;
+}
+
+.contact__form-submit {
+    min-width: 100px;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #f1c40f;
+}
+
+.contact__form-submit--full-width {
+    width: 100%;
+}
 
 /* END OF CONTACT */
+
+/* FOOTER */
+
+.footer {
+    color: white;
+    background-color: #2c3e50;
+}
+
+/* END OF FOOTER */
