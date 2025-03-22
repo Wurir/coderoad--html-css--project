@@ -178,9 +178,6 @@ html, body {
     text-align: center;
 }
 
-.testimonial__text {
-
-}
 
 .testimonial__rule{
     margin: 2rem auto;
@@ -192,10 +189,6 @@ html, body {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-}
-
-.testimonial__name {
-
 }
 
 /* END OF TESTIMONIALS */
@@ -250,9 +243,6 @@ html, body {
     margin-right: 1rem;
 }
 
-.contact__form {
-
-}
 
 .contact__form-input {
     color: white;
